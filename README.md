@@ -1,45 +1,66 @@
-Reveal QA Take-Home - Playwright Automation
+## **Reveal QA Take-Home - Playwright Automation**
 
 This project contains a small TypeScript and Playwright test suite using SauceDemo.
 
-Test Coverage
-Successful user login
-Invalid login error validation
-Add product to cart
-Project Structure
+## **Test Coverage**
+
+* Successful user login
+* Invalid login error validation
+* Add product to cart
+
+## **Project Structure**
+
 reveal-qa-takehome/
+
 ├── tests/
-│   └── saucedemo.spec.ts
+
+   └── saucedemo.spec.ts
+
 ├── helpers/
-│   └── login.ts
+
+   └── login.ts
+
 ├── playwright.config.ts
+
 ├── package.json
+
 ├── package-lock.json
+
 └── README.md
-Prerequisites
+
+## **Prerequisites**
 
 Make sure the following are installed:
 
-Git
-Node.js
-npm
-Setup - Windows
+* Git
+* Node.js
+* npm
+
+## **Setup - Windows**
 
 Open PowerShell and run:
 
 git clone https://github.com/moutazusa/reveal-qa-takehome.git
+
 cd reveal-qa-takehome
+
 npm install
+
 npx playwright install
-Setup - Mac
+
+## **Setup - Mac**
 
 Open Terminal and run:
 
 git clone https://github.com/moutazusa/reveal-qa-takehome.git
+
 cd reveal-qa-takehome
+
 npm install
+
 npx playwright install
-Run Tests - Windows
+
+## **Run Tests - Windows**
 
 Run all tests in headless mode:
 
@@ -48,7 +69,8 @@ npx playwright test
 Run all tests in headed mode:
 
 npx playwright test --headed
-Run Tests - Mac
+
+## **Run Tests - Mac**
 
 Run all tests in headless mode:
 
@@ -57,15 +79,16 @@ npx playwright test
 Run all tests in headed mode:
 
 npx playwright test --headed
-Failure Screenshots and Traces
+
+## **Failure Screenshots and Traces**
 
 The Playwright configuration captures:
 
-Screenshots when a test fails
-Traces when a test fails
+* Screenshots when a test fails
+* Traces when a test fails
 
 Failure screenshots and traces are saved locally in the test-results/ folder.
 
-Reusable Helper
+## **Reusable Helper**
 
 The project includes a reusable login helper that is used by multiple tests to reduce duplicated code and make the tests easier to maintain.
